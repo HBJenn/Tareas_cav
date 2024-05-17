@@ -1,1 +1,6 @@
-
+s0.initImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuGjFc0UnAZSHmyay_2gKl_wL_4S07V_HCn3gIfZrXxA&s") 
+src(s0) 
+  .blend(noise(0.1,0.2)) 
+  .modulate(voronoi(1, 0.5, 0.8).kaleid(1)) 
+  .color(13,4,13)
+   .out()
